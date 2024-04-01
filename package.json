@@ -1,7 +1,4 @@
 {
-  "predeploy" : "npm run build", 
-  "deploy" : "gh-pages -d build",
-  
   "name": "pertemuan1",
   "version": "0.0.0",
   "private": true,
@@ -10,7 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test:unit": "vitest"
+    "test:unit": "vitest",
+    "predeploy" : "npm run build", 
+  "deploy" : "gh-pages -d build"
+  
   },
   "dependencies": {
     "vue": "^3.4.21"
